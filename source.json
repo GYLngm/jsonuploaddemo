@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2018-03-20",
+    "time": "09:25:44",
+    "latitude": 37.924971,
+    "longitude": 139.693567,
+    "IMEI": 3013782113,
+    "version": 3,
+    "temperature": 48,
+    "num_bus": 582
+  },
+  {
+    "date": "2016-12-11",
+    "time": "07:30:44",
+    "latitude": 18.32613,
+    "longitude": -134.657083,
+    "IMEI": 4405155396,
+    "version": 1,
+    "temperature": 11,
+    "num_bus": 500
+  },
+  {
+    "date": "2015-09-12",
+    "time": "04:08:49",
+    "latitude": -35.240705,
+    "longitude": 91.234557,
+    "IMEI": 4747018143,
+    "version": 8,
+    "temperature": 43,
+    "num_bus": 922
+  },
+  {
+    "date": "2015-08-06",
+    "time": "03:57:47",
+    "latitude": 21.404255,
+    "longitude": -151.423099,
+    "IMEI": 4849415281,
+    "version": 4,
+    "temperature": 44,
+    "num_bus": 867
+  },
+  {
+    "date": "2017-05-29",
+    "time": "04:56:38",
+    "latitude": 8.846458,
+    "longitude": -92.81585,
+    "IMEI": 6231128211,
+    "version": 9,
+    "temperature": 50,
+    "num_bus": 908
+  },
+  {
+    "date": "2015-02-27",
+    "time": "01:39:51",
+    "latitude": -46.832374,
+    "longitude": -85.237591,
+    "IMEI": 3185113372,
+    "version": 1,
+    "temperature": 14,
+    "num_bus": 431
+  },
+  {
+    "date": "2015-03-04",
+    "time": "12:52:57",
+    "latitude": -49.96644,
+    "longitude": -132.224978,
+    "IMEI": 8978222646,
+    "version": 6,
+    "temperature": 14,
+    "num_bus": 309
+  }
+]

@@ -1,0 +1,33 @@
+body { background-color: #d6d8db; }
+.header-row {
+  padding: 10% ;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+div .body-content {
+  background-color: white;
+
+}
+
+div .para-style {
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+div .form-gap {
+  padding: 0 auto;
+  margin-top: 66px;
+}
+
+div .table-style {
+  padding: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div .hidden {
+	display: none;
+}
