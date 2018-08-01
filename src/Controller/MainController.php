@@ -27,6 +27,7 @@ class MainController extends AbstractController
     public function parseJson(){
         $request = Request::createFromGlobals();
         $data = [];
+        $response = new JsonResponse();
 
         if($request->files->get('inputJsonFile01')){
             $file = $request->files->get('inputJsonFile01');
@@ -51,9 +52,12 @@ class MainController extends AbstractController
                 array_push($sub,$value->getNumBus());
                 array_push($data,$sub);
             }
-            $response = new JsonResponse();
+
             $response->setStatusCode(Response::HTTP_OK);
             $response->setData($data);
+        }else {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+            $response->setData('Bad request');
         }
         return $response;
     }

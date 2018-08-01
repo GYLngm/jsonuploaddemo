@@ -6,9 +6,14 @@
         {% block stylesheets %}
             <link rel="stylesheet" href="/css/bootstrap.min.css" >
             <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
         {% endblock %}
     </head>
     <body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+        <div>Result: <p id="http_response"></p></div>
+        <div style="text-align: right;">Click reset button to initialize table <i style="font-size:24px" class="fa">&#xf0a4;</i> <a href="{{ path('app_main_homepage') }}" class="btn btn-secondary btn-sm active" id="reset" role="button" aria-pressed="true">reset</a></div>
+    </nav>
         {% block body %}
             <div class="container-fluid">
                 <div class="section header-row shadow p-3 mb-5 bg-white body-content rounded">
